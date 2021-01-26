@@ -18,17 +18,6 @@ $(document).keypress(function(event) {
     }, 1400);
   }
 });
-$(document).on("tap",function(event) {
-  if ( nivel == 0) {
-    $("#title").html("GO!").addClass("countdown").fadeOut(500).fadeIn(100).fadeOut(100).fadeIn(100).fadeOut(100).fadeIn(100).fadeOut(100).fadeIn(100).fadeOut(100);
-    $("#level").hide();
-    setTimeout(function() {
-      secuencia();
-      $(".container").show();
-      $("#level").show();
-    }, 1400);
-  }
-});
 
 $(".btn").click(function() {
 
